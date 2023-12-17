@@ -16,8 +16,8 @@ API_ID = 29087479
 API_HASH = 'c17b3ffa426f9cdb4e07874d0e8642dc'
 BOT_TOKEN = '6638113583:AAEFfhTSg0OipYlEttvYe4fjbbzuSIu_TgU'
 SESSION = 'BQBVQUhAgOT1MPTkv8Xu4XYiHBLFrxR08_L-sK1nkYVLWSLc42LYdolZJjTb_rSLh97GbjwuHkZtfYs9NpeSec0BkCnqULCmBXqA5ZWgaO6FmN-x_xMMzovvRfB7YpqXf2Q6filqD8zEbSkO5WNKWw38j29vfiBfZuuUO9ikvQiYsc1OvVSXHHgWespLxieRLm9MBLj8yvKSicyrCHOB72qaDx7D0fYiXTWu8Gq3CcQ9Tv13lZ3SMJ-p-78dFBE8gfksfR_6ohVrFXdd0o74sO1yvru9dl-gk7_KV5kWbSB06VTM-dqwVvYDbR6SIQzXR-IrQtncFRaaPGasK5Uwo8ndAAAAAXE0FzUA'
-FORCESUB = config("FORCESUB", default=None)
-AUTH = config("AUTH", default=None, cast=int)
+FORCESUB = 'save2023a'
+AUTH = 6194206517
 
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
 
